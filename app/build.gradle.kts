@@ -1,8 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    kotlin("kapt")
     alias(libs.plugins.hilt)
+    kotlin("kapt")
 }
 
 android {
@@ -32,7 +32,7 @@ android {
     }
     kotlinOptions { jvmTarget = "17" }
     buildFeatures { compose = true }
-    composeOptions { kotlinCompilerExtensionVersion = "1.5.1" }
+    composeOptions { kotlinCompilerExtensionVersion = "1.5.10" }
     packaging { resources { excludes += "/META-INF/{AL2.0,LGPL2.1}" } }
 }
 
@@ -72,4 +72,6 @@ dependencies {
 
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    kapt(libs.hilt.compiler)
+    kapt("com.squareup:javapoet:1.13.0")
 }

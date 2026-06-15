@@ -2,10 +2,17 @@ package com.levonty.unitalk.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+val UniBlue = Color(0xFF2F6BFF)
+val UniTeal = Color(0xFF19C2B0)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val LightBackground = Color(0xFFFFFFFF)
+val LightSurface = Color(0xFFF5F7FA)
+val LightOnSurface = Color(0xFF202124)
+
+val DarkBackground = Color(0xFF1B1F24)
+val DarkSurface = Color(0xFF252A31)
+val DarkOnSurface = Color(0xFFF2F3F5)
+
+val Error = Color(0xFFBA1A1A)
+val Success = Color(0xFF2E7D32)
+val Warning = Color(0xFFED6C02)

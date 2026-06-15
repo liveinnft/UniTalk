@@ -5,8 +5,6 @@ import com.levonty.unitalk.data.model.Gender
 import com.levonty.unitalk.data.model.Interest
 import com.levonty.unitalk.data.model.Language
 import com.levonty.unitalk.data.model.MessageStatus
-import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
 import org.json.JSONArray
 import org.json.JSONObject
 
